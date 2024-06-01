@@ -1,0 +1,7 @@
+Use-case
+
+Knowing whether a student has accademic success or will dropout can be of useful knowledge. 
+It can be interesting for the student himself to understand his possibilities of success when making the decision to go to university or not.
+Moreover, the knowledge can be useful for companies as well. It is escpecially important when a decision is about to be made if they 
+want to employe a students as working studens. Having this information the economic success could be greater because a company has not
+invested in a student which will not have a degree and will not be a full-time in the future.
