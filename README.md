@@ -11,5 +11,4 @@ Predict Students' Dropout and Academic Success
 
 ## Beschreibung des Aufbaus
 
-Eine kurze Beschreibung, wie der Quellcode ausgeführt werden muss
-(Installation/Dependencies/Packages/...)
+Alle benötigten packages können mit pip install -r requirements.txt installiert werden.
