@@ -1,7 +1,7 @@
-importnb==2023.11.1
-matplotlib==3.7.1
-numpy==1.24.3
-pandas==2.0.1
-scikit_learn==1.5.0
-scipy==1.13.1
-seaborn==0.13.2
+importnb
+matplotlib
+numpy
+pandas
+scikit_learn
+scipy
+seaborn
