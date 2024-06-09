@@ -11,4 +11,4 @@ Predict Students' Dropout and Academic Success
 
 ## Beschreibung des Aufbaus
 
-Alle benötigten packages können mit pip install -r requirements.txt bzw. pip3 install -r requirements.txt installiert werden.
+Alle benötigten packages können mit '''pip install -r requirements.txt''' bzw. '''pip3 install -r requirements.txt''' installiert werden.
