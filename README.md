@@ -1,14 +1,14 @@
 # Data-Exploration-Projekt
 
-## Zielsetzung des Projekts
+## Goal of this Project
 
 Predict Students' Dropout and Academic Success
 
-## Eine Liste der Gruppenmitglieder
+## Group Members
 
 - Elisabeth Barar
 - Johanna Unruh
 
-## Beschreibung des Aufbaus
+## Description of the Structure
 
-Alle benötigten packages können mit `pip install -r requirements.txt` bzw. `pip3 install -r requirements.txt` installiert werden.
+All the packages that are needed to execute the jupyter notebooks can be installed depending on the pip version with `pip install -r requirements.txt` or `pip3 install -r requirements.txt`.
