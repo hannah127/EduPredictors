@@ -9,6 +9,6 @@ Predict Students' Dropout and Academic Success
 - Elisabeth Barar
 - Johanna Unruh
 
-## Description of the Structure
+## Execution of the Notebooks
 
 All the packages that are needed to execute the jupyter notebooks can be installed depending on the pip version with `pip install -r requirements.txt` or `pip3 install -r requirements.txt`.
