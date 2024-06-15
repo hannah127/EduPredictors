@@ -1,5 +1,10 @@
 # Data Exploration Projekt
 
+## Group Members of "EduPredictors"
+
+- Elisabeth Barar (2825002)
+- Johanna Unruh (5132960)
+
 ## Goal of this Project
 
 The goal of this project is to predict academic success and thereby whether a student will dopout out or graduate.
@@ -20,11 +25,6 @@ We decided to train the four following models: k-Nearest-nNigbours, Random Fores
 ### 3. Evaluation
 
 Confusion Matrix and the Roc-curve are methods to compare and evaluate the performance of models. Moreover, we calculate the accuracy, precision, recall and f1-score. This is helpful for evaluating and comparing the performance of the differnent values as well. Finally, we interprete all results to justify which model has the best results.
-
-## Group Members of "EduPredictors"
-
-- Elisabeth Barar (2825002)
-- Johanna Unruh (5132960)
 
 ## Execution of the Notebooks
 
