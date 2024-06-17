@@ -102,7 +102,7 @@ def main():
     curricular_units_2nd_sem_evaluations = st.number_input("Curricular units 2nd sem (evaluations)", 0)
     curricular_units_2nd_sem_approved = st.number_input("Curricular units 2nd sem (approved)", 0)
     curricular_units_2nd_sem_grade = st.slider("Curricular units 2nd sem (grade)", 0, 20)
-    gdp = st.number_input("GDP", 0.0)
+    gdp = st.slider("GDP", -5.00, 5.00)
 
     if st.button("Predict"): 
         data = {
