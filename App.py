@@ -142,7 +142,7 @@ def main():
         # Apply the function to each value in the dictionary
         mapped_data = {k: extract_number(v) for k, v in data.items()}
 
-        st.write(mapped_data)
+        #st.write(mapped_data)
         #print(mapped_data)
         df=pd.DataFrame([list(mapped_data.values())], columns=cols)
             
