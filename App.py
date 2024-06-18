@@ -7,7 +7,7 @@ import re
 
 df_filtered = pd.read_csv('data/dataset_dropout_filtered.csv')
 
-model = pickle.load(open('model/student-dropout-academic-success-model.pk1', 'rb'))
+model = pickle.load(open('model/predict-student-dropout-academic-success-model.pk1', 'rb'))
 #encoder_dict = pickle.load(open('encoder.pkl', 'rb')) 
 cols=df_filtered.columns.drop("Target")
   
