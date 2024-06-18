@@ -6,15 +6,13 @@ import pickle
 import re
 
 df_filtered = pd.read_csv('data/dataset_dropout_filtered.csv')
-
 model = pickle.load(open('model/predict-student-dropout-academic-success-model.pk1', 'rb'))
-
-#encoder_dict = pickle.load(open('encoder.pkl', 'rb')) s
 cols=df_filtered.columns.drop("Target")
   
 def main(): 
     st.title("Dropout Predictor")
 
+    # defining all choices
     marital_status = st.selectbox("Marital Status", ["1 – single", "2 – married", "3 – widower", "4 – divorced", "5 – facto union", "6 – legally separated"])
     application_mode = st.selectbox("Application mode", [
         "1 - 1st phase - general contingent",
@@ -131,7 +129,7 @@ def main():
             "GDP": gdp,
         }
 
-        # Function to extract numerical part
+        # extract the numbers of the choice
         def extract_number(value):
             if isinstance(value, str):
                 match = re.match(r"\d+", value)
@@ -139,14 +137,9 @@ def main():
             elif isinstance(value, (int, float)):
                 return value
             return None
-
-        # Apply the function to each value in the dictionary
         mapped_data = {k: extract_number(v) for k, v in data.items()}
 
-        #st.write(mapped_data)
-        #print(mapped_data)
         df=pd.DataFrame([list(mapped_data.values())], columns=cols)
-            
         features_list = df.values.tolist()      
         prediction = model.predict(features_list)
     
@@ -158,7 +151,6 @@ def main():
             text = "Dropout"
             color = "red"
 
-        # Display result with color
         st.markdown(f'<p style="color:{color};font-size:24px;">You will {text}</p>', unsafe_allow_html=True)
 
 if __name__=='__main__': 
