@@ -8,7 +8,8 @@ import re
 df_filtered = pd.read_csv('data/dataset_dropout_filtered.csv')
 
 model = pickle.load(open('model/predict-student-dropout-academic-success-model.pk1', 'rb'))
-#encoder_dict = pickle.load(open('encoder.pkl', 'rb')) 
+
+#encoder_dict = pickle.load(open('encoder.pkl', 'rb')) s
 cols=df_filtered.columns.drop("Target")
   
 def main(): 
@@ -152,10 +153,13 @@ def main():
         output = int(prediction[0])
         if output == 1:
             text = "Graduate"
+            color = "green"
         else:
             text = "Dropout"
+            color = "red"
 
-        st.success('You will {}'.format(text))
+        # Display result with color
+        st.markdown(f'<p style="color:{color};font-size:24px;">You will {text}</p>', unsafe_allow_html=True)
 
 if __name__=='__main__': 
     main()
