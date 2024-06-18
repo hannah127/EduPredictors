@@ -37,3 +37,5 @@ The order of the notebooks is the following:
 1. Data Cleanup
 2. Training ML Models
 3. Evaluation
+
+You can also try our model using this [link](https://hannah127-data-exploration-projekt-app-bcdugr.streamlit.app/).
