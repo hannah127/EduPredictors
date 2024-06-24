@@ -20,7 +20,7 @@ During the data cleanup we will remove all rows which have NaN values. Following
 
 ### 2. Training of ML-Models
 
-We decided to train the four following models: k-Nearest-nNigbours, Random Forest, Decision Trees and Naive Bayes. To train to we split the dataset first in 70% training data and 30% testing data first. Secondly, we train those models using the Python library scikit-learn. Thirdly, we improve the performance of every model using hyperparameter tuning using GridSearchCV of scikit-learn.
+We decided to train the four following models: k-Nearest-Neigbours, Random Forest, Decision Trees and Naive Bayes. To train to we split the dataset first in 70% training data and 30% testing data first. Secondly, we train those models using the Python library scikit-learn. Thirdly, we improve the performance of every model using hyperparameter tuning using GridSearchCV of scikit-learn.
 
 ### 3. Evaluation
 
